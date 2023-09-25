@@ -1,0 +1,31 @@
+.SearchHolder {
+    background-color: #dadada;
+    width: 70%;
+    height: 30px;
+    border-radius: 6px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.Search {
+    background-color: transparent;
+    border: none;
+    width: 95%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.MagnifierIconHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100%;
+}
+
+.IconSearch {
+    cursor: pointer;
+}
+

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    user-select: none;
+}
+
+.DarkModeIcon {
+    width: 30px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.DarkModeIcon:hover {
+    filter: brightness(80%);
+}
+
+.border_white {
+    background-color: black;
+    border: 2px solid white;
+}

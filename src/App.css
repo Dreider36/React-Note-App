@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    min-width: 690px;
+    min-height: 100vh;
+}
+
+button {
+    background-color: #ffffff;
+    border: 2px solid #222;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    height: 40px;
+    max-width: 200px;
+}
+
+button:hover {
+    filter: brightness(90%);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+input {
+    text-align: left;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
